@@ -1,0 +1,4 @@
+*/*.image
+*/*.module
+*/*.exec
+*/config.h
