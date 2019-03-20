@@ -51,6 +51,7 @@
 *read_word: memrw
 *regexp: regexp
 *save_env: loadenv
+*sbpolicy: sbpolicy
 *search: search
 *serial: serial
 *setenv: setenv
