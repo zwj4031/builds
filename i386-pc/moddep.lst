@@ -26,6 +26,7 @@ reiserfs: fshelp
 part_sunpc:
 zstd:
 gfxmenu: video_colors trig bitmap_scale gfxterm font normal video bitmap
+915resolution:
 backtrace:
 jfs:
 help: extcmd normal
@@ -105,6 +106,7 @@ usbserial_ftdi: serial usb usbserial_common
 legacy_password_test: functional_test legacycfg
 lua: btrfs font setjmp normal video pci gfxmenu
 cpuid: extcmd
+hwmatch: regexp normal pci
 hdparm: extcmd hexdump
 bfs: fshelp
 vboot: extcmd video boot relocator
@@ -136,8 +138,8 @@ lsapm:
 gcry_sha512: crypto
 qrcode: extcmd
 password: crypto normal
-efiemu: gcry_crc crypto smbios cpuid acpi
 fshelp:
+efiemu: gcry_crc crypto smbios cpuid acpi
 sleep_test: functional_test datetime
 iorw: extcmd
 xnu: macho bitmap_scale random verifiers extcmd video bitmap boot efiemu relocator mmap

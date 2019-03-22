@@ -81,6 +81,7 @@
 *xnu_splash: xnu
 *zfskey: zfscrypt
 .: configfile
+915resolution: 915resolution
 [: test
 authenticate: normal
 background_color: gfxterm_background
@@ -126,6 +127,7 @@ gptrepair: gptrepair
 gptsync: gptsync
 help: minicmd
 hexdump_random: random
+hwmatch: hwmatch
 imgwrite: imgwrite
 increment: increment
 initrd16: linux16
