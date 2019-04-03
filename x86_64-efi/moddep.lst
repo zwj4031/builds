@@ -172,7 +172,6 @@ fat: fshelp
 fb:
 ufs1_be:
 getkey: extcmd
-libffi:
 archelp:
 fdlibm:
 http: net
@@ -198,7 +197,7 @@ kernel:
 vhd: extcmd
 usbtest: usb
 relocator: mmap
-python: libffi fdlibm disk acpica extcmd datetime normal
+python: fdlibm disk acpica extcmd datetime normal
 linuxefi: linux boot
 acpi: extcmd mmap
 tga: bufio bitmap

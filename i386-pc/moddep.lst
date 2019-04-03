@@ -180,7 +180,6 @@ fb:
 ufs1_be:
 truecrypt: video boot relocator mmap gzio
 getkey: extcmd
-libffi:
 archelp:
 fdlibm:
 ntldr: chain video boot relocator
@@ -206,7 +205,7 @@ kernel:
 vhd: extcmd
 usbtest: usb
 relocator: mmap
-python: libffi smp fdlibm disk acpica extcmd datetime normal
+python: smp fdlibm disk acpica extcmd datetime normal
 acpi: extcmd mmap
 tga: bufio bitmap
 reboot: relocator
