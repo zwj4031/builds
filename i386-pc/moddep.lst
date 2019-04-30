@@ -44,11 +44,11 @@ usb_keyboard: usb keylayouts
 xzio: crypto
 syslinuxcfg: extcmd normal
 search_fs_file:
+wrmsr:
 vga: video video_fb
 usbms: scsi usb
 test_blockarg: extcmd normal
 increment:
-wrmsr:
 true:
 affs: fshelp
 iso9660: fshelp
@@ -93,8 +93,8 @@ keystatus: extcmd
 linux: verifiers normal vbe video boot relocator mmap
 geli: cryptodisk crypto gcry_sha512 pbkdf2 gcry_sha256
 cmdline_cat_test: font functional_test procfs normal video_fb
-part_sun:
 rdmsr: extcmd
+part_sun:
 cbtable:
 plan9: verifiers extcmd video boot relocator
 sendkey: extcmd boot
@@ -247,6 +247,7 @@ msdospart: disk parttool
 priority_queue:
 gcry_twofish: crypto
 part_dfly:
+vdisk: fshelp extcmd
 expr: extcmd
 xnu_uuid_test: functional_test
 diskfilter:

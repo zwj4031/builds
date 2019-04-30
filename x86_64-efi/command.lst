@@ -1,6 +1,7 @@
 *acpi: acpi
 *all_functional_test: functional_test
 *background_image: gfxterm_background
+*bootmgr: bootmgr
 *cat: cat
 *clear_menu: normal
 *cpuid: cpuid
@@ -9,6 +10,7 @@
 *date: date
 *dd: dd
 *echo: echo
+*efiload: ramdisk
 *expr: expr
 *extract_syslinux_entries_configfile: syslinuxcfg
 *extract_syslinux_entries_source: syslinuxcfg
@@ -45,6 +47,7 @@
 *probe: probe
 *py_options: python
 *qrcode: qrcode
+*ramdisk: ramdisk
 *rdmsr: rdmsr
 *read_byte: memrw
 *read_dword: memrw
@@ -70,6 +73,7 @@
 *testspeed: testspeed
 *tr: tr
 *trust: pgp
+*vdisk: vdisk
 *verify_detached: pgp
 *vhd: vhd
 *xnu_splash: xnu

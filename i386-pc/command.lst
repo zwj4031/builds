@@ -76,6 +76,7 @@
 *vboot16: vboot
 *vboot: vboot
 *vbootinsmod: vboot
+*vdisk: vdisk
 *verify_detached: pgp
 *vhd: vhd
 *xnu_splash: xnu
