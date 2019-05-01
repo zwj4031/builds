@@ -76,6 +76,7 @@
 *vdisk: vdisk
 *verify_detached: pgp
 *vhd: vhd
+*wimboot: wimboot
 *xnu_splash: xnu
 *zfskey: zfscrypt
 .: configfile

@@ -157,6 +157,7 @@ strtoull_test: functional_test
 bitmap:
 ntfs: fshelp
 multiboot: net linux video boot relocator mmap
+wimboot: extcmd normal
 gcry_crc: crypto
 png: bufio bitmap
 jpeg: bufio bitmap
