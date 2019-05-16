@@ -110,7 +110,7 @@ gcry_blowfish: crypto
 test:
 nilfs2: fshelp
 search_disk_uuid: gpt
-ramdisk: extcmd
+ramdisk: efiload extcmd
 gcry_rsa: pgp mpi
 cryptodisk: crypto extcmd procfs
 nativedisk:
@@ -159,6 +159,7 @@ ntfs: fshelp
 multiboot: net linux video boot relocator mmap
 wimboot: extcmd normal
 gcry_crc: crypto
+efiload: extcmd
 png: bufio bitmap
 jpeg: bufio bitmap
 macbless: disk
