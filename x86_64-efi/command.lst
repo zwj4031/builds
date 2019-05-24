@@ -3,6 +3,7 @@
 *background_image: gfxterm_background
 *bootmgr: bootmgr
 *cat: cat
+*chainloader: chain
 *clear_menu: normal
 *cpuid: cpuid
 *crc: hashsum
@@ -91,7 +92,6 @@ boot: boot
 break: normal
 cat: minicmd
 cbmemc: cbmemc
-chainloader: chain
 clear: normal
 cmp: cmp
 commandline: commandline
