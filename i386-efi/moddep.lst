@@ -139,6 +139,7 @@ setenv: extcmd
 iorw: extcmd
 xnu: macho bitmap_scale random verifiers extcmd video bitmap boot relocator mmap
 mmap:
+getargs: extcmd
 exfctest: functional_test
 zfsinfo: zfs
 ldm: part_gpt diskfilter part_msdos

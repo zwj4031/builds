@@ -18,6 +18,7 @@
 *file: file
 *functional_test: functional_test
 *fwconfig: fwconfig
+*getargs: getargs
 *getenv: getenv
 *getkey: getkey
 *gettext: gettext

@@ -5,7 +5,7 @@ grub_modinfo_target_cpu=x86_64
 grub_modinfo_platform=efi
 grub_disk_cache_stats=0
 grub_boot_time_stats=0
-grub_have_font_source=0
+grub_have_font_source=1
 
 # Autodetected config
 grub_have_asm_uscore=0
