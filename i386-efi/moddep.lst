@@ -129,6 +129,7 @@ div:
 ehci: cs5536 usb boot
 crypto:
 part_bsd: part_msdos
+shell: net extcmd efinet normal
 cs5536:
 gcry_sha512: crypto
 qrcode: extcmd
