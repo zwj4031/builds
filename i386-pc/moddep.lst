@@ -104,7 +104,7 @@ verifiers:
 bufio:
 usbserial_ftdi: serial usb usbserial_common
 legacy_password_test: functional_test legacycfg
-lua: btrfs font setjmp normal video pci gfxmenu
+lua: btrfs font setjmp datetime normal video pci gfxmenu
 cpuid: extcmd
 hwmatch: regexp normal pci
 hdparm: extcmd hexdump
