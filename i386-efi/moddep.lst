@@ -272,7 +272,7 @@ normal: terminal crypto verifiers bufio extcmd boot gettext
 ufs1:
 mdraid09: diskfilter
 lvm: diskfilter
-chain: net linux extcmd efinet normal boot
+chain: net extcmd efinet normal boot
 cbfs: archelp
 ufs2:
 time:
