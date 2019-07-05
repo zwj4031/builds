@@ -132,7 +132,6 @@ part_bsd: part_msdos
 shell: net extcmd efinet normal
 cs5536:
 gcry_sha512: crypto
-qrcode: extcmd
 password: crypto normal
 fshelp:
 sleep_test: functional_test datetime
@@ -225,7 +224,6 @@ crc: btrfs
 cbmemc: normal cbtable terminfo
 hfsplus: fshelp
 gcry_cast5: crypto
-fwconfig: extcmd
 commandline: normal
 extcmd:
 squash4: fshelp lzopio xzio gzio
@@ -239,13 +237,11 @@ lspci: extcmd
 cbtime: cbtable
 video_fb:
 minix3_be:
-bootmgr: extcmd
 trig:
 msdospart: disk parttool
 priority_queue:
 gcry_twofish: crypto
 part_dfly:
-vdisk: fshelp extcmd
 expr: extcmd
 xnu_uuid_test: functional_test
 diskfilter:

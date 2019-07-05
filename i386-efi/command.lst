@@ -1,7 +1,6 @@
 *acpi: acpi
 *all_functional_test: functional_test
 *background_image: gfxterm_background
-*bootmgr: bootmgr
 *cat: cat
 *chainloader: chain
 *clear_menu: normal
@@ -17,7 +16,6 @@
 *extract_syslinux_entries_source: syslinuxcfg
 *file: file
 *functional_test: functional_test
-*fwconfig: fwconfig
 *getargs: getargs
 *getenv: getenv
 *getkey: getkey
@@ -48,7 +46,6 @@
 *pop_env: normal
 *probe: probe
 *py_options: python
-*qrcode: qrcode
 *ramdisk: ramdisk
 *rdmsr: rdmsr
 *read_byte: memrw
@@ -76,7 +73,6 @@
 *testspeed: testspeed
 *tr: tr
 *trust: pgp
-*vdisk: vdisk
 *verify_detached: pgp
 *vhd: vhd
 *wimboot: wimboot

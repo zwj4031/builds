@@ -26,7 +26,6 @@ reiserfs: fshelp
 part_sunpc:
 zstd:
 gfxmenu: video_colors trig bitmap_scale gfxterm font normal video bitmap
-915resolution:
 backtrace:
 jfs:
 help: extcmd normal
@@ -106,7 +105,6 @@ usbserial_ftdi: serial usb usbserial_common
 legacy_password_test: functional_test legacycfg
 lua: btrfs font setjmp datetime normal video pci gfxmenu
 cpuid: extcmd
-hwmatch: regexp normal pci
 hdparm: extcmd hexdump
 bfs: fshelp
 vboot: extcmd video boot relocator
@@ -136,10 +134,9 @@ cs5536: pci
 biosdisk:
 lsapm:
 gcry_sha512: crypto
-qrcode: extcmd
 password: crypto normal
-fshelp:
 efiemu: gcry_crc crypto smbios cpuid acpi
+fshelp:
 sleep_test: functional_test datetime
 iorw: extcmd
 xnu: macho bitmap_scale random verifiers extcmd video bitmap boot efiemu relocator mmap
@@ -228,7 +225,6 @@ cbmemc: normal cbtable terminfo
 cmosdump:
 hfsplus: fshelp
 gcry_cast5: crypto
-fwconfig: extcmd
 commandline: normal
 extcmd:
 squash4: fshelp lzopio xzio gzio
@@ -247,7 +243,6 @@ msdospart: disk parttool
 priority_queue:
 gcry_twofish: crypto
 part_dfly:
-vdisk: fshelp extcmd
 expr: extcmd
 xnu_uuid_test: functional_test
 diskfilter:

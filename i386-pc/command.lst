@@ -15,7 +15,6 @@
 *extract_syslinux_entries_source: syslinuxcfg
 *file: file
 *functional_test: functional_test
-*fwconfig: fwconfig
 *getkey: getkey
 *gettext: gettext
 *gptprio.next: gptprio
@@ -48,7 +47,6 @@
 *pop_env: normal
 *probe: probe
 *py_options: python
-*qrcode: qrcode
 *rdmsr: rdmsr
 *read_byte: memrw
 *read_dword: memrw
@@ -76,13 +74,11 @@
 *vboot16: vboot
 *vboot: vboot
 *vbootinsmod: vboot
-*vdisk: vdisk
 *verify_detached: pgp
 *vhd: vhd
 *xnu_splash: xnu
 *zfskey: zfscrypt
 .: configfile
-915resolution: 915resolution
 [: test
 authenticate: normal
 background_color: gfxterm_background
@@ -128,7 +124,6 @@ gptrepair: gptrepair
 gptsync: gptsync
 help: minicmd
 hexdump_random: random
-hwmatch: hwmatch
 imgwrite: imgwrite
 increment: increment
 initrd16: linux16
